@@ -1,0 +1,30 @@
+package in.truethics.ethics.ethicsapiv10.dto.purchasedto;
+
+import lombok.Data;
+
+@Data
+
+public class FRPurOrderDTO {
+
+    private Long id;
+    private String invoice_no;
+    private String invoice_date;
+    private String transaction_date;
+    private Double total_amount;
+    private String sundry_creditor_name;
+    private Long sundry_creditor_id;
+    private String supplier_code;
+    private String narration;
+    private String purchase_order_status;
+    private String purchase_account_name;
+    private Double tax_amt;
+    private Double taxable_amt;
+    private Double totaligst;
+    private String transactionTrackingNo;//transactionTrackingNo;
+    private String tranxCode;
+    private String orderStatus;
+
+    private String frOrderStatus;
+
+    private long totalProducts;
+}
